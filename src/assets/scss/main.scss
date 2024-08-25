@@ -1,0 +1,18 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.container{
+      max-width: 1420px;
+      margin: 0 auto;
+      padding: 0 10px;
+}
+/* arsenal-sc-regular - latin */
+@font-face {
+      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Arsenal SC';
+      font-style: normal;
+      font-weight: 400;
+      src: url('../fonts/arsenal-sc-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
